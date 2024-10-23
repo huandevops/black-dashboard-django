@@ -27,8 +27,8 @@ DEBUG = env('DEBUG')
 ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
 
 # load production server from .env
-ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1',               env('SERVER', default='127.0.0.1'),           'black-dashboard-django-g0rq.onrender.com',        'chiasekienthuc.me']
-CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1', 'https://' + env('SERVER', default='127.0.0.1'), 'https://black-dashboard-django-g0rq.onrender.com/', 'https://chiasekienthuc.me']
+ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1',               env('SERVER', default='127.0.0.1'),         'black-dashboard-django-g0rq.onrender.com',         'black-dashboard-c8fta4ajdrbbc4br.eastasia-01.azurewebsites.net',         'chiasekienthuc.me']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1', 'https://' + env('SERVER', default='127.0.0.1'), 'https://black-dashboard-django-g0rq.onrender.com', 'https://black-dashboard-c8fta4ajdrbbc4br.eastasia-01.azurewebsites.net', 'https://chiasekienthuc.me']
 
 # Application definition
 
